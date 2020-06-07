@@ -114,7 +114,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
                 secondSixs = true;
                 nextPlayer();
             
-            } else if (dice !== 1){
+            } else if (dice1 !== 1 || dice2!==1){
             
                 //Add score
                 roundScore += diceSum;
